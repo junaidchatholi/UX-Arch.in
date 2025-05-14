@@ -1,0 +1,255 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Mono:ital,wght@0,300;0,400;0,500;1,300;1,400;1,500&family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Manrope:wght@200..800&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1{
+    font-family: 'Inter', sans-serif;
+}
+.banner{
+    width: 100vw;
+    height: 100vh;
+    /* background-color: rgb(173, 173, 173); */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    pointer-events: none; 
+
+}
+.banner-name{
+    color: black; 
+    font-family: Fashion Fetish Small Caps; 
+    font-weight: 300; 
+    /* line-height: 132.86px;  */
+    letter-spacing: 10px;
+    font-size: clamp(1rem, 12vw, 10rem);
+}
+.bannerchild2{
+    text-align: end;
+}
+@font-face {
+    font-family: 'Fashion Fetish Small Caps';
+    src: url('font/Fashion\ Fetish\ Small\ Caps.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+.mywork{
+    width: 100vw;
+    /* height: 1000px; */
+    /* background-color: aquamarine; */
+    display: flex;
+    flex-direction: column;
+    /* flex-wrap: wrap; */
+    /* justify-content: center; */
+    align-items: center;
+    padding: 60px 0;
+    gap: 100px;
+
+}
+p{
+    font-size: 16px;
+    margin: 0;
+}
+.mywork-section{
+    max-width: 600px;
+    
+}
+.mywork-section h1,
+.mywork-section p {
+    text-align: center;
+}
+.work-card {
+    max-width: 604px;
+    display: flex;
+    /* flex-wrap: wrap; */
+    background-color: #FFF8F8;
+    box-shadow: 0px 0px 50.099998474121094px -14px rgba(0, 0, 0, 0.25);
+    padding: 16px;
+    border-radius: 16px;
+
+}
+.card-img{
+    width: auto;
+}
+.card-content{
+    margin-left: 16px;
+
+}
+
+
+/* Mobile-friendly layout */
+@media (max-width: 480px) {
+    .work-card {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .card-content {
+        margin-left: 0;
+        margin-top: 12px;
+    }
+
+    .card-img img {
+        width: 100%;
+        border-radius: 12px;
+    }
+}
+.card-btn{
+    font-weight: 700;
+    background-color: #F02905;
+    padding: 8px 16px;
+    border-radius: 50px;
+    border: solid 0;
+    color: #fff;
+}
+.coming-soon{
+    /* background-color: #fff; */
+    color: black;
+    border: solid 0;
+    padding: 8px 16px;
+    border-radius: 50px;
+}
+
+   /* MESCE ALUMNI PAGE */
+
+.main-page{
+    width: 100%; 
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+}
+.page{
+    /* background-color: rgb(203, 181, 151); */
+    /* padding: 30px ; */
+    max-width: 980px;
+}
+   
+.header{
+    padding: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+.mescimg{
+    width: 308px;
+}
+.headerchild{
+    /* max-width: 680px; */
+}
+
+.Overview{
+    /* max-width: 680px; */
+    /* padding: 30px ;  */
+    height: 299px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.mainheading{
+    font-family: 'Inter', sans-serif;
+    color: #2A2929;
+    margin-top: 16px;
+    
+}
+.paragraph{
+    font-family: 'Inter', sans-serif;
+    color: #4F4F4F;
+}
+.subheading{
+    font-family: 'Inter', sans-serif;
+    font-weight: 600;
+    color: #4F4F4F;
+
+}
+.sections{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    align-items: center;
+
+
+}
+
+.section-content-1{
+    /* background-color: antiquewhite; */
+    padding: 30px ;
+    /* max-width: 680px; */
+}
+
+.section-content-2{
+    /* background-color: rgb(203, 181, 151); */
+    padding: 30px ;
+    /* max-width: 680px; */
+}
+
+.Thinkimg{
+    margin-bottom: 30px;
+    /* background-color: #7a7a7a; */
+}
+.whireframe{
+    width: 100%;
+}
+.finaldesign{
+    background-color: #050435;
+    padding: 50px 0;
+    /* height: 700px; */
+    width: 100%;
+    /* background-image: url(Assets/Visual\ Design\ BG.png); */
+    /* background-repeat: no-repeat; */
+    display: flex;
+    justify-content: center;
+
+    
+}
+
+.visualdesign-img{
+    width: 100%;
+}
+
+.mainheading{
+    /* margin-bottom: 0; */
+}
+.footerlink{
+    margin-bottom: 0;
+}
+
+.rainbow-text {
+    font-weight: bold;
+    background-image: linear-gradient(90deg, 
+        red, orange, yellow, green, blue, indigo, violet, red);
+    background-size: 300% 300%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+    animation: rainbow-animation 3s linear infinite;
+}
+
+@keyframes rainbow-animation {
+    0% { background-position: 0% 50%; }
+    50% { background-position: 100% 50%; }
+    100% { background-position: 0% 50%; }
+}
+
+.projectcard:hover {
+    background-color: #fffae6; /* Light green */
+
+}
